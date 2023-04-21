@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-import java.awt.event.KeyEvent;
-import java.lang.invoke.MethodHandles;
-import java.sql.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JOptionPane;
+//import java.awt.event.KeyEvent;
+//import java.lang.invoke.MethodHandles;
+//import java.sql.*;
+//import java.util.logging.Level;
+//import java.util.logging.Logger;
+//import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 /**
  *
@@ -25,7 +25,7 @@ public class Sales extends javax.swing.JFrame {
     
 //    Connection con;
 //    PreparedStatement pst;
-    ResultSet rs;
+//    ResultSet rs;
     DefaultTableModel model = new DefaultTableModel();
     
     
@@ -432,7 +432,6 @@ public class Sales extends javax.swing.JFrame {
                         
        }
                         
-//         txtSub.setText(Integer.toString(sum));
          lbltotal.setText(Integer.toString(sum));
          txtSub.setText(Integer.toString(sum)); 
          lblItems.setText(Integer.toString(items));
@@ -446,7 +445,6 @@ public class Sales extends javax.swing.JFrame {
 
     private void txtPayKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPayKeyPressed
         // TODO add your handling code here:
-        
     }//GEN-LAST:event_txtPayKeyPressed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
